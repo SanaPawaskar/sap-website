@@ -1,0 +1,206 @@
+/**************footer *************************/
+    .main-footer-card{
+        width: 100%;
+        text-align: center;
+        } 
+        .rowfootor{
+          margin-top: 3em;
+          }
+        .colfootor{
+          position: relative;
+          width: 79%;
+         margin-top: 1em;
+          color: rgb(79, 78, 78);
+           }
+        .colfootor-h2{
+          position: relative;
+          font-size: 18px;
+          margin-bottom: 0.4em;
+         text-align: center;
+         color: green;
+        }
+      .Powered-by{
+        display: flex;
+        justify-content:center;
+        flex-direction:column;
+        line-height: 1em;
+        margin-top: 4em;
+      }
+      .footer-style1{
+        position: relative;
+        font-weight: 600; 
+        font-size: 12px;
+        text-align: center;
+        word-spacing: 4px;
+      }
+  a{
+        text-decoration: none;
+      }
+      .footor-text{
+        font-weight: 600;
+        color: rgb(84, 82, 82);
+        word-spacing: 4px;
+        line-height: 1.5em;
+        color:#030303;
+        
+      }
+
+   /***************"Contact********/
+.Contact-Container{
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .contact-text{
+    margin: 2em;
+    font-weight: 600;
+  color: rgb(84, 82, 82);
+  word-spacing: 4px;
+  line-height: 1.7em;
+  }
+  .form-div{
+    display: flex;
+    gap: 1em;
+    padding: 24px;
+  }
+   .input-box{
+    margin-top: 20px;
+    height: 3.8em;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 26em;
+    padding: 1em;
+    }
+    .contact-from-submit-button{
+      display: flex;
+      position: relative;
+      justify-content: center;
+      gap: 1em;
+      color: white;
+      background-color: black;
+      border-radius: 10px;
+      border-color: black;
+      width: 13em;
+      height: 3em;
+      align-items: center;
+      margin-left: 21em;
+    
+    }
+  .Contact-div{
+    padding-top: 0.1px;
+  }
+  .title-product{
+    font-weight: 500;
+    margin: 0.5em;
+    color: green;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+  }
+  .container-card-footer-conatct{
+    display: flex;
+  gap: 1em;
+  }
+ 
+ .aboutpage-heading-div{
+  font-family:'Poppins', sans-serif ;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  color: green;
+ }
+  @media screen and (max-width: 600px){
+    .colfootor{
+      width: 100%;
+    }
+    .main-footer-card{
+      align-items: center;
+      }
+    .colfootor-h2{
+      margin-bottom: 0.5px;
+    }
+    .Powered-by{
+      margin-top: 2em;
+ 
+    }
+    .container-card-footer-conatct{
+      display: flex;
+    flex-direction: column;
+    }
+    .form-div{
+      flex-direction:column;
+    }
+   .input-box{
+        font-size: 15px;
+        width: 21em;
+     }
+      .contact-from-submit-button{
+        font-size: 15px;
+        margin-left: 6em;
+        margin-bottom:3em ;
+      }
+    .Contact-div{
+      margin-top: 2em;
+    }
+    .aboutpage-heading-div{
+      font-size: 19px;
+   }
+  .contact-text{
+    margin: 1em;
+  word-spacing: 5px;
+  font-size: 11px;
+  text-align: center;
+  }
+  .footor-text{
+font-size: 11px;
+  }
+  }   
+
+  @media only screen   and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .main-footer-card{
+      width: 100%;
+      text-align: center;
+      } 
+      .rowfootor{
+        margin-top: 3em;
+        }
+      .colfootor{
+        position: relative;
+        width: 93%;
+       margin-top: 1em;
+        color: rgb(79, 78, 78);
+         }
+      .colfootor-h2{
+        position: relative;
+        font-size: 14px;
+      }
+  .footer-style1{
+     font-size: 12px;
+    }
+ .footor-text{
+     font-size: 13px;
+      }
+.contact-text{
+  text-align: center;
+  margin: 1.4em;
+  font-size: 13px;
+}
+.form-div{
+  display: flex;
+  gap: 0.3em;
+}
+ .input-box{
+  width: 21em;
+  padding: 1em;
+  }
+  .contact-from-submit-button{
+    margin-left: 12em;
+    font-size: 14px;
+  }
+  }
+ 
+
+
+
+
+

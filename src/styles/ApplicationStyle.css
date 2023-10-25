@@ -1,0 +1,181 @@
+/************************Product-Page*****************************/
+.Application-section-div{
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+  }
+  .Application-section-title{
+    font-size: 2em;
+    color: green;
+    font-weight: 600; 
+  }
+  .Application-section-para{
+    margin-bottom: 2em;
+  }
+   .container-for-application-card-section{
+     display: flex;
+     flex-direction: row;
+     gap: 2em;
+     margin-top: 3em;
+     padding: 1em;
+   }
+   .Application-section-card-left{
+     width: 25vw;
+    box-shadow: 0 3px 30px 0 rgba(0,0,0,.02);
+    border-radius: 4px solid rgb(234, 230, 230);
+    text-align: center;
+    margin-top: 4em;
+   }
+   .Application-section-card-right{
+     width: 25vw;
+     box-shadow: 0 3px 30px 0 rgba(0,0,0,.02);
+     border-radius: 4px;
+     text-align: center;
+     margin-top: -4em;
+   }
+   .application-sec-des{
+    font-weight: 500;
+    color: rgb(84, 82, 82);
+    word-spacing:2px;
+    line-height: 1.7em;
+   }
+   /**************************Application-product-section***************/
+   .Application-title{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4em;
+    letter-spacing: 0.1em;
+   }
+   .Application-page-content{
+     text-align: center;
+     padding: 2em;
+   }
+   .Application-tag-line{
+     margin-bottom: 1em;
+   }
+   .card-img-appp {
+    width: 18em;
+    height: 52vh
+   }
+   .card-img-gen{
+  width: 15em;
+    height: 41vh;
+    margin-left: 3em;
+}
+   .card-img-locomotive{
+    width: 16em;
+    height: 39vh;
+   }
+   .container-of-other-application{
+     margin-top: 4em;
+     margin-bottom: 5em;;
+   }
+   .container-for-other-app-show{
+    display: flex;
+    margin-top: 3em;
+    justify-content: center;
+    gap: 4em;
+   }
+   .card-other-application{
+     width: 14vw;
+     height: 35vh;
+     position: relative;
+     box-sizing: border-box;
+     border-radius: 7px;
+     border: 2px solid rgb(220, 220, 219);
+     text-align: center;
+     padding: 0.6em;
+   }
+   .application-product-image-indiviual-backgroud{
+    opacity: 0.5;
+   }
+   @media only screen and (max-width:600px){
+    .container-for-other-app-show{
+      display: flex;
+      margin-top: 3em;
+      justify-content: center;
+      gap:0.3em;
+     }
+     .second{
+      width: 30vw;
+      height: 10vh;
+      margin-left: 0.1em;
+     }
+    .Application-section-title{
+      font-size: 1.4em;
+    }
+    .Application-section-para{
+      margin-bottom: 1em;
+    }
+    .container-for-application-card-section{
+      display: flex;
+      flex-direction:column;
+      gap: 4em;
+      margin-top: -4em;
+    margin-left: 1em;
+    }
+    .Application-section-card-left{
+      width: 80vw;
+     text-align: center;
+     margin-left: -1em;
+    }
+    .Application-section-card-right{
+      width: 90vw;
+      margin-left: -2em;
+  }
+   .card-other-application{
+    width: 33vw;
+    height: 22vh;
+    padding: 0.6em;
+  }
+  .Application-title{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    letter-spacing: 0.1em;
+   }
+   .Application-page-content{
+    text-align: center;
+    padding: 0.4em;
+  }
+  .application-sec-des{
+    font-weight: 500;
+    color: rgb(84, 82, 82);
+    word-spacing:2px;
+    line-height: 1.7em;
+    font-size: 12px;
+   }
+   .earth-movig-product-image{
+    width: 50%;
+    height:50%;
+   }
+   .application-product-image-indiviual-backgroud{
+    max-width: 100%;
+    height: auto;
+    opacity: 0.5;
+   }
+   }
+
+   @media only screen   and (min-device-width: 768px) 
+   and (max-device-width: 1024px) {
+    .Application-title{
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      font-size: 3.4em;
+     }
+     .container-for-application-card-section{
+      padding: 0.3em;
+    }
+    .card-other-application{
+      height: 17vh;
+      width: 18vw;
+    }
+    .application-sec-des{
+    font-size: 15px;
+    }
+   }

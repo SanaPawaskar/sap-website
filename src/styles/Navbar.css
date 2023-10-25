@@ -1,0 +1,223 @@
+.nav {
+    position:fixed;
+    z-index: 2;
+    display: none;
+   }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu-toggle {
+    cursor: pointer;
+  }
+  .nav-overlay {
+    position: fixed;
+    background-color:  #dfdedb;
+    z-index: -2;
+    top: -100%;
+    left: 0;
+    width: 90%;
+    height: 100vh;
+    overflow: hidden;
+    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .hamBox {
+    position: relative;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    padding: 2.4em;
+  }
+  .lineTop, .lineBottom {
+    margin: 0 auto;
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 10px;
+    background: #262039;
+    left: 0;
+    right: 0;
+    transform: rotate(0deg);
+    transition: all 0.4s;
+  }
+  .lineTop {
+    top: 2.2em;
+  }
+  .lineTop:hover{
+    width: 0.5em;
+  }
+  .lineBottom {
+    bottom: 2.2em;
+  }
+  .lineTop.spin {
+    top: 2.35em;
+    transform: rotate(135deg);
+    background: white;
+  }
+  .lineBottom.spin {
+    bottom: 2.35em;
+    transform: rotate(225deg);
+    background: white;
+  }
+  ul.dropdown{
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6em;
+  }
+  ul.dropdown li{
+    list-style: none;
+    position: relative;
+  }
+  ul.dropdown li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    position: relative;
+     top: 0;
+    transition: all 2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+/*********************Navbar for desktop *******************/
+   .dropdown-for-desktop{
+    gap: 5.5em;
+    display: flex;
+    margin: 2em;
+  }
+  ul li{
+    list-style: none;
+    position: relative;
+    color: black;
+    font-size: 1em;
+    top: 0;
+  font-weight: 500;
+   }
+   a:link {
+    text-decoration: none;
+}
+
+    .sap-logo{
+    margin-left: 5em;
+    margin-top: 1em;
+  }
+ .Navbar-for-desktop{
+    width: 100%;
+    display: flex;
+    gap: 9em;
+    display: flex;
+    justify-content: center;
+  }
+  .get-quote-navbutton{
+    background-color: rgb(7, 7, 7);
+    width: 97px;
+    height: 49px;
+    margin-top: 16px;
+    border: none;
+    border-radius: 28px;
+    color: rgb(245, 240, 240);
+  }
+@media only screen and (max-width:500px){
+    .nav {
+        display: block;
+       }
+    .navbar {
+      position: fixed;
+     margin-top: 3em;
+      left: 0;
+      width: 80%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-overlay {
+      width: 100%;
+      background-color: white;
+    }
+    ul.dropdown{
+      position: absolute;
+      transition: 850ms;
+      gap: 2em;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    ul.dropdown li a{
+      font-size: 2em;
+    }
+    .Navbar-for-desktop{
+      display: none;
+      }
+   }
+
+   .dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top:80px;
+    list-style: none;
+    text-align: start;
+   }
+   .nav-item-desktop li{
+    background: #1888ff;
+    cursor: pointer;
+   }
+   .nav-item-desktop :hover{
+    background:#36b9cc ;
+    color: green;
+   }
+   .dropdown-menu.clicked{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+       }
+
+
+@media only screen   and (min-device-width: 768px)  and (max-device-width: 1008px) {
+ .dropdown-for-desktop{
+  gap: 2.5em;
+ display: flex;
+  margin: 2em;
+        }
+
+       }
+
+.primary-navigation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4em;
+padding: 2em;
+letter-spacing: 1px;
+}
+li:hover{
+  color: green;
+}
+       
+@media (max-width: 35em){
+  .primary-navigation{
+    position: fixed;
+   inset:  0 0 0 0%;
+   background: rgb(246, 248, 249);
+   flex-direction: column;
+   padding: min(30vh, 10rem) 2em;
+   
+  }
+}

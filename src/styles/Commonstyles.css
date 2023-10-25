@@ -1,0 +1,95 @@
+.container-card{
+    box-sizing: border-box;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 1em;
+  }
+.Product-heading{
+    text-align: center;
+    font-weight: 400;
+    color: green;
+    margin-top: 3em;
+  }
+  .Common-text-font{
+    font-weight: 500;
+    color: rgb(84, 82, 82);
+    word-spacing:1px;
+    line-height: 1.7em;
+    margin-top: 1em;
+    /* text-align: center; */
+  }
+  .Brand-tag{
+    font-size: 3em;
+    line-height: 2em;
+    font-weight: 600; 
+    text-align: center;
+}
+.view-more-button{
+  width: 9vw;
+  height: 6.4vh;
+  font-family:'Poppins', sans-serif ;
+  border-radius: 18px ;
+  border-color: green;
+  background-color: white;
+  color: green;
+  margin: 0.7em;
+}
+.view-more-button:hover{
+  border-color: green;
+  background-color: green;
+  color: white;
+  margin: 1em;
+}
+.Common-text-font-thin-line{
+  font-weight: 500;
+  color: rgb(84, 82, 82);
+  word-spacing: 1px;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+}
+.company-name{
+  color: green;
+}
+.bold-class{
+  color: green;
+}
+ @media only screen and (max-width:600px){
+    .Common-text-font{
+      margin-top: 1em;
+      font-size: 12px;
+      width: 100%;
+    }
+   .Brand-tag{
+      font-size: 1.3em;
+      line-height: 3em;
+      font-weight: 600;  
+  }
+  .view-more-button{
+    width:29vw;
+    height: 4vh;
+    margin: 0.7em;
+  }
+  .Common-text-font-thin-line{
+    font-size: 12px;
+    line-height: 1.5em;
+
+  }
+  
+  }
+  @media only screen   and (min-device-width: 768px) 
+  and (max-device-width: 1024px) {
+    .view-more-button{
+      width: 12.5vw;
+      height: 3.5vh;
+      word-spacing:1px;
+      font-size: 13px;
+      line-height: 24px;
+    }
+    .Common-text-font-thin-line{
+      word-spacing: 2px;
+      font-size: 13px;
+      line-height: 24px;
+    }
+  }

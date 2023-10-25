@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;800&display=swap');
+.Home-container{
+display: flex;
+    }
+.home-content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap:0.2em;
+  padding: 2em;
+}
+.image-carousel-div{
+    display: flex;
+    width: 90%; 
+    flex-direction: column;
+  }
+  .brand-title{
+    word-spacing:0.2em;
+    font-size: 1.6em;
+    text-align: center;
+  }
+.homepage-contact-info {
+    margin-top:1em;
+}
+.get-a-qoute{
+  font-weight: 300;
+  }
+ .email-homepage{
+ text-decoration: underline;
+ color:green;
+ }
+ .callback-button{
+  background: green;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 4px;
+
+  text-transform: uppercase;
+ }
+ .topbar-card{
+  display: flex;
+  text-align: center;
+  gap: 15em;
+  background-color: rgb(240, 230, 230);
+  position: sticky;
+}
+ .Solgan-tag{
+  margin-top: 2em;
+}
+ .comany-navbar-logo{
+ margin-left: 1em;
+ }
+@media only screen and (max-width:600px){
+    .home-content{
+      margin-top: 5%;
+    }
+    .image-carousel-div{
+        display: none;
+      }
+      .brand-title{
+    word-spacing:0.2em;
+    font-size:1em;
+      }
+      .image-caro-homepage{
+        width: 45vw;
+        height: 60vh;
+      }
+      .homepage-contact-info {
+        margin-top: 5em;
+        margin-left: -2em;
+    }
+    .Logo-name-image{
+        width:69vw;
+        height: 28vh;
+      }
+      .topbar-card{
+        display: flex;
+        text-align: center;
+        gap:3em;
+        background-color: rgb(240, 230, 230);
+        position: sticky;
+      }
+      .callback-button{
+        background: green;
+        color: white;
+        font-size: 8px;
+        letter-spacing: 4px;
+        padding: 3px 3px;
+       }
+       .Solgan-tag{
+        margin-top: 1em;
+        font-size: 12px;
+       }
+       .comany-navbar-logo{
+        margin-top: 0.2em;
+        margin-left: 0.3em;
+         }
+}
+
+@media only screen   and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+  .Home-container{
+    display: flex;
+      box-sizing: border-box;
+      gap: 0.5em;
+      overflow: hidden;
+    margin-right: 1em;
+      }
+      .brand-title{
+        display: block;
+        font-size: 21px;
+      }
+  .topbar-card{
+    display: flex;
+    gap:1em;
+    background-color: rgb(240, 230, 230);
+    position: sticky;
+  }
+  .comany-navbar-logo{
+    margin-top: 0.2em;
+    margin-left: 0.3em;
+     }
+     .Solgan-tag{
+      margin-top: 2em;
+      font-size: 14px;
+      margin-left: 9em;
+     }
+     .callback-button{
+      font-size: 12px;
+      letter-spacing: 4px;
+      padding: 3px 3px;
+      margin-left: 17em;
+     }
+}

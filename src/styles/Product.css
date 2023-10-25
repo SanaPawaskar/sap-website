@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600;800&display=swap');
+.Product-div{
+  padding: 2em;
+}
+.product-dis-para{
+  text-align: center;
+    color: #6c696e;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+.side{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  height: 35vh;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 8px solid #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ }
+ .card-img-automotive{
+  width: 100%;
+  height: 100%;
+ }
+.product-name{
+  display: flex;
+  justify-content: center;
+   gap: 4.1em;
+  text-align: center;
+
+}
+.product-des-name{
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.application-display{
+  width: 100%;
+  height: 20vh;
+  background-color: #8fabba;
+}
+.side-for-moblie{
+  display: none;
+}
+
+.product-display-moblie{
+  display: none;
+}
+.row-product{
+  display: flex;
+  gap: 19px;
+}
+.col-product{
+  box-sizing: border-box;
+ display: flex;
+  flex-direction: column;
+ 
+}
+/********************************************/
+.Product-cat-display{
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  padding: 1em;
+  gap:3em
+}
+.product-card{
+  display: flex;
+  flex-direction: column;
+}
+/******************************PRODUCT-PAGE-*******************/
+.Product-cat-page-title{
+  display:flex;
+  justify-content: center;
+  font-family:'Poppins', sans-serif ;
+  font-size: 2em;
+  font-weight: 600;
+}
+.Product-cat-display-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+}
+.product-card-cat-container{
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid orange;
+  
+}
+@media only screen and (max-width:600px){
+  .Product-cat-display{
+display: flex;
+flex-direction: column;
+
+  }
+  .product-display-moblie{
+    display: block;
+    justify-content: center;
+    margin-left: 1em;
+  }
+  .Product-homepage-container{
+    padding: 2em;
+}
+.product-display-div{
+  display:none;
+}
+.side-for-moblie{
+  display:block;
+  display: flex;
+}
+.card{
+  width: 50vw;
+  height: 20vh;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 8px solid #fff;
+  position: relative;
+}
+.product-name{
+  display: flex;
+  justify-content: center;
+  gap: 6.2em;
+}
+.product-des-name{
+  font-size: 17px;
+  font-weight: 500;
+}
+.application-display{
+  width: 100%;
+  height: 20vh;
+  background-color: #8fabba;
+}
+}
+
+@media only screen   and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+ .product-dis-para{
+    text-align: center;
+      color: #6c696e;
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 17px;
+  }
+  .side{
+    display: flex;
+    justify-content: center;
+  }
+  .card{
+    height: 24vh;
+   }
+   .card-img-automotive{
+    width: 100%;
+    height: 100%;
+   }
+  .product-name{
+    display: flex;
+    justify-content: center;
+     gap: 4.1em;
+    text-align: center;
+  
+  }
+  .product-des-name{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  
+  .application-display{
+    width: 100%;
+    height: 20vh;
+    background-color: #8fabba;
+  }
+  .side-for-moblie{
+    display: none;
+  }
+   .product-display-moblie{
+    display: none;
+  }
+  .row-product{
+    display: flex;
+    gap: 19px;
+  }
+  .col-product{
+    box-sizing: border-box;
+   display: flex;
+    flex-direction: column;
+    }
+}

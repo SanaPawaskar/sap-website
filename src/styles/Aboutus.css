@@ -1,0 +1,194 @@
+.Brand-slogan{
+    font-size: 2em;
+    font-weight: 600;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   margin: 1em;
+   line-height: 1.9em;
+   word-spacing: .2em;
+}
+.image-caro-aboutpage{
+    width: 62vw;
+    height: 67vh;
+    object-fit:cover;
+}
+.left .image-sec {
+    width: 91%;
+    height: 96%;
+   border-radius: 50px;
+    object-fit: fill;
+}
+.right .image-sec{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50px;
+}
+.Caro-div{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 60vh;
+    gap: 2em;
+    margin-bottom: 6em;
+}
+.Slide1{
+    width: 32%;
+    margin-top: 10%;
+    height: 60vh;
+}
+.Slide2{
+    width: 65%;
+    height: 20vh;
+}
+.Abour-name-owner{
+    margin: 1em;
+}
+.Left-side-slider{
+    border: 1px solid orange;
+    margin: 3%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+.Owerns-dov{
+    display: flex;
+    justify-content: center;
+    gap: 22em;
+    margin-top: 8em;
+}
+.container-pic{
+    display: flex;
+      flex-direction: column;
+      text-align: center;
+      font-size: 27px;
+      z-index: 10;
+    }
+    .right{
+        z-index: 10;
+    }
+    .left{
+        z-index: 10;
+    }
+    .Counter-Up{
+        display: flex;
+        margin: 2em;
+        /* margin-left: 5em; */
+    }
+    .Text-about-client{
+        width: 100%;
+    }
+    .Number-clients{
+        width: 31%;
+        margin-left: 2em;
+    }
+    .Couter-up-text{
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .Counter-no{
+        font-weight: 300;
+        font-size: 36px;
+    }
+    .aboutpage-heading{
+        font-family:'Poppins', sans-serif ;
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+        color: green;
+    }
+    .Common-text-End{
+        font-size: 24px;
+        text-align: center;
+        margin: 2%;
+    }
+    .About-text-div-mission{
+    margin: 2.3em;
+    }
+  @media only screen and (max-width:500px){
+    .Brand-slogan{
+        text-align: center;
+        font-size: 1.3em;
+       line-height: 1.9em;
+       word-spacing: .2em;
+    }
+    .image-caro-aboutpage{
+        width: 99vw;
+        height: 50vh;
+        object-fit:cover;
+    }
+    .Caro-div{
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        height: 60vh;
+        gap: 1em;
+        margin-bottom: 2em;
+    }
+    .Slide2{
+       width: 100%;
+        height: 10vh;
+    }
+    .Owerns-dov{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1em;
+        margin-top:2em;
+    }
+    .container-pic{
+        display: flex;
+          flex-direction: column;
+          text-align: center;
+          font-size: 27px;
+          z-index: 10;
+        }
+        .Counter-Up{
+            display: flex;
+            flex-direction: column;
+        }
+        .Text-about-client{
+            width: 111%;
+        }
+        .Number-clients{
+            margin-top: 3em;
+            width: 100%;
+          text-align: center;
+          }
+        .Couter-up-text{
+            font-size: 20px;
+        }
+        .Counter-no{
+            font-size: 30px;
+        }
+        .aboutpage-heading{
+            font-family:'Poppins', sans-serif ;
+            font-size: 23px;
+            font-weight: 400;
+            text-align: center;
+            color: green;
+        }
+     .Common-text-End{
+        margin: 1%;
+       width: 97%;
+     font-size: 17px;
+     text-align: center;
+     word-spacing: 5px;
+     line-height: 25px;
+        }
+
+
+
+  }
+  @media only screen   and (min-device-width: 768px) 
+and (max-device-width: 1024px) {
+
+
+
+
+
+
+}
